@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* #region title_section */
 header {
     height: 100px;
     background-image: url("../img/pattern.png");
@@ -47,7 +48,9 @@ h1 {
 .pic_description {
     font-size: 12px;
 }
+/* #endregion title_section */
 
+/* #region ul_section */
 #ul_section {
     font-size: 18px;
 }
@@ -63,3 +66,34 @@ h1 {
 #ul_section li {
     margin-left: 20px;
 }
+/* #endregion ul_section */
+
+/* #region table_section */
+table {
+    margin-top: 30px;
+}
+
+#table_head{
+    background-color: rgb(78, 160, 255);
+}
+
+#table_row1 {
+    background-color: lightblue;
+}
+
+#table_row3 {
+    background-color: lightblue;
+}
+
+#table_section p {
+    margin: 20px 0;
+}
+
+table .column3 {
+    width: 50%;
+}
+
+#table_section span {
+    background-color: yellow;
+}
+/* #endregion table_section */
