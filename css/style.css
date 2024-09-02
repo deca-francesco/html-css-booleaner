@@ -71,17 +71,14 @@ h1 {
 /* #region table_section */
 table {
     margin-top: 30px;
+    border-collapse: collapse;
 }
 
 #table_head{
     background-color: rgb(78, 160, 255);
 }
 
-#table_row1 {
-    background-color: lightblue;
-}
-
-#table_row3 {
+#table_row1, #table_row3 {
     background-color: lightblue;
 }
 
@@ -97,3 +94,27 @@ table .column3 {
     background-color: yellow;
 }
 /* #endregion table_section */
+
+/* #region others_section */
+#others_section h3 {
+    color: grey;
+}
+
+#others_section div {
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+
+#other1 {
+    background-image: url("../img/monitor.jpg");
+}
+
+#other2 {
+    background-image: url("../img/graph.jpg");
+}
+/* #endregion others_section*/
