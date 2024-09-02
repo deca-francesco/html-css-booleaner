@@ -47,3 +47,19 @@ h1 {
 .pic_description {
     font-size: 12px;
 }
+
+#ul_section {
+    font-size: 18px;
+}
+
+#ul_section p {
+    margin: 15px 0;
+}
+
+#ul_section span {
+    background-color: yellow;
+}
+
+#ul_section li {
+    margin-left: 20px;
+}
